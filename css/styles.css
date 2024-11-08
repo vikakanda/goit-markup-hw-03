@@ -108,7 +108,7 @@ margin: 0 auto;
     color: #fff;
     margin: 0 auto;
     padding-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
     
 }
 .hero-button {
@@ -126,6 +126,7 @@ margin: 0 auto;
     text-align: center;
     display: block;
     margin: 0 auto;
+    min-width: 169px
 }
 .hero-button:hover,
 .hero-button:focus {
