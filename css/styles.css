@@ -10,7 +10,7 @@ ul, ol {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6. p {
+h1, h2, h3, h4, h5, h6, p {
 margin: 0;
 }
 
@@ -132,18 +132,49 @@ margin: 0 auto;
 .hero-button:focus {
     background: #404bbf;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
+    .benefits {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .benefits-list {
+       display: flex;
+       gap: 24px;
+    }
+    .benefits-item {
+    width: calc((100% - 72px) / 4);
+    }
 .benefits-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px
 }
 .benefits-lead { 
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+
+.user {
+padding: 120px 0 120px
+}
+.user-div { 
+        padding: 32px 0;
 }
 
 .user-team {
@@ -153,8 +184,14 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
+.user-list {
+display: flex;
+gap: 24px;
+}
+
 .user-name {
     font-weight: 500;
     font-size: 20px;
@@ -162,6 +199,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .user-desc {
     font-weight: 400;
@@ -176,6 +214,8 @@ letter-spacing: 0.02em;
 }
 .user-item {
     background: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .portfolio-content { 
 font-weight: 700;
