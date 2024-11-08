@@ -174,7 +174,7 @@ letter-spacing: 0.02em;
 padding: 120px 0 120px
 }
 .user-div { 
-        padding: 32px 0;
+padding: 32px 0;
 }
 
 .user-team {
@@ -201,14 +201,14 @@ gap: 24px;
     color: #2e2f42;
     margin-bottom: 8px;
 }
-.user-desc {
+  .user-desc {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-}
+   }
 .user {
     background-color: #f4f4fd;
 }
@@ -217,6 +217,20 @@ gap: 24px;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
+.portfolio {
+    padding: 120px 0 120px
+ }
+
+.portfolio-item {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+}
+
+.portfolio-div {
+margin-top: 32px;
+}
+
 .portfolio-content { 
 font-weight: 700;
 font-size: 36px;
@@ -224,8 +238,10 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-text-transform: capitalize
+text-transform: capitalize;
+margin-bottom: 72px;
 }
+
 .portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
